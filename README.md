@@ -1,2 +1,3 @@
 # danteIA
-projetIAdante epitech
+IA maze
+

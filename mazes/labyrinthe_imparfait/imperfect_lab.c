@@ -1,13 +1,3 @@
-/*
-** perfect_lab.c for perfect_lab in /home/damier_a/IA/laby_parfait
-** 
-** Made by ambroise damier
-** Login   <damier_a@epitech.net>
-** 
-** Started on  Wed May  6 11:56:32 2015 ambroise damier
-** Last update Sun May 17 16:58:37 2015 Clementine Legenty
-*/
-
 #include "include/imperfect_maze.h"
 
 void		is_breakable(t_list *list)
@@ -102,9 +92,13 @@ int		main(int ac, char **av)
     }
   if ((create_the_maze(list)) == 1)
     return (1);
+  aff_maze(list);
   fill_the_maze(list);
+  aff_maze(list);
   final_maze(list);
+  aff_maze(list);
   list->y_max = my_getnbr(av[2]);
   first(list, av);
+  aff_maze(list);
   return (0);
 }

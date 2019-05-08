@@ -1,13 +1,3 @@
-##
-## Makefile for makefile in /home/damier_a/IA/laby_2
-## 
-## Made by ambroise damier
-## Login   <damier_a@epitech.net>
-## 
-## Started on  Thu May  7 22:18:46 2015 ambroise damier
-## Last update Sun May 17 16:59:56 2015 Clementine Legenty
-##
-
 CC	=	gcc
 
 RM	=	rm -f

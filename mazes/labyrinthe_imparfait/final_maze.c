@@ -1,13 +1,3 @@
-/*
-** final_maze.c for  in /home/legent_c/rendu/dante/lab1/dante/labyrinthe_imparfait
-** 
-** Made by Clementine Legenty
-** Login   <legent_c@epitech.net>
-** 
-** Started on  Sun May 17 16:26:19 2015 Clementine Legenty
-** Last update Sun May 17 20:55:37 2015 ambroise damier
-*/
-
 #include "include/imperfect_maze.h"
 
 void		final_maze_next(t_list *list)

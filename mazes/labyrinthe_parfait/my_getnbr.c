@@ -1,13 +1,3 @@
-/*
-** my_getnbr3.c for my_getnbr in /home/legent_c/rendu/
-** 
-** Made by Clementine Legenty
-** Login   <legent_c@epitech.net>
-** 
-** Started on  Tue Oct 21 19:07:28 2014 Clementine Legenty
-** Last update Sun May 17 17:24:03 2015 Clementine Legenty
-*/
-
 #include "include/perfect_maze.h"
 
 int	my_getnbr(char *str)

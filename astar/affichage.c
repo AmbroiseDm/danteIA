@@ -1,13 +1,3 @@
-/*
-** affichage.c for  in /home/legent_c/rendu/dante/lab1/dante/profondeur
-** 
-** Made by Clementine Legenty
-** Login   <legent_c@epitech.net>
-** 
-** Started on  Sun May 17 17:49:27 2015 Clementine Legenty
-** Last update Sun May 17 23:15:42 2015 ambroise damier
-*/
-
 #include "include/get_next_line.h"
 #include "include/solver.h"
 

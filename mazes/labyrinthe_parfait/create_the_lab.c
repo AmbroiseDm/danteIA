@@ -1,13 +1,3 @@
-/*
-** create_the_lab.c for create_lab in /home/damier_a/IA/laby_2
-** 
-** Made by ambroise damier
-** Login   <damier_a@epitech.net>
-** 
-** Started on  Thu May  7 05:03:00 2015 ambroise damier
-** Last update Sun May 17 17:12:06 2015 Clementine Legenty
-*/
-
 #include "include/perfect_maze.h"
 
 void		random_pos(t_list *list)

@@ -1,13 +1,3 @@
-/*
-** get_next_line.c for damier_a in /home/damier_a/progelem/CPE_2014_allum1/lib
-** 
-** Made by ambroise damier
-** Login   <damier_a@epitech.net>
-** 
-** Started on  Sun Feb 22 21:40:54 2015 ambroise damier
-** Last update Sun May 17 22:07:41 2015 ambroise damier
-*/
-
 #include "include/get_next_line.h"
 #include "include/solver.h"
 

@@ -1,13 +1,3 @@
-/*
-** my.h for my_h_ in /home/damier_a/IA/profondeur/include
-** 
-** Made by ambroise damier
-** Login   <damier_a@epitech.net>
-** 
-** Started on  Sun May 17 12:53:29 2015 ambroise damier
-** Last update Sun May 17 22:45:18 2015 ambroise damier
-*/
-
 #ifndef			SOLVER_H_
 # define		SOLVER_H_
 

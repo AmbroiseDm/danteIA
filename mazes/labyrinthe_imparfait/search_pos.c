@@ -1,13 +1,3 @@
-/*
-** search_pos.c for search_pos in /home/damier_a/IA/laby_2
-** 
-** Made by ambroise damier
-** Login   <damier_a@epitech.net>
-** 
-** Started on  Thu May  7 22:06:04 2015 ambroise damier
-** Last update Sun May 17 16:40:10 2015 Clementine Legenty
-*/
-
 #include "include/imperfect_maze.h"
 
 int		fill_place(t_list *list, int y, int x)

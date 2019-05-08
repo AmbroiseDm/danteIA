@@ -1,13 +1,3 @@
-/*
-** peer_x.c for per_x in /home/damier_a/IA/labyrinthe_parfait
-** 
-** Made by ambroise damier
-** Login   <damier_a@epitech.net>
-** 
-** Started on  Fri May 15 19:43:29 2015 ambroise damier
-** Last update Sun May 17 16:44:31 2015 Clementine Legenty
-*/
-
 #include "include/imperfect_maze.h"
 
 void		fplx_next(t_list *list)

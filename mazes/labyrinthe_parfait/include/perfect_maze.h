@@ -1,13 +1,3 @@
-/*
-** my.h for my_h in /home/damier_a/IA/laby_parfait
-** 
-** Made by ambroise damier
-** Login   <damier_a@epitech.net>
-** 
-** Started on  Wed May  6 11:53:58 2015 ambroise damier
-** Last update Sun May 17 18:00:50 2015 Clementine Legenty
-*/
-
 #ifndef PERFECT_MAZE_H_
 #define PERFECT_MAZE_H_
 

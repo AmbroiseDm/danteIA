@@ -1,13 +1,3 @@
-/*
-** perfect_lab.c for perfect_lab in /home/damier_a/IA/laby_parfait
-** 
-** Made by ambroise damier
-** Login   <damier_a@epitech.net>
-** 
-** Started on  Wed May  6 11:56:32 2015 ambroise damier
-** Last update Sun May 17 17:20:01 2015 Clementine Legenty
-*/
-
 #include "include/perfect_maze.h"
 
 int	first(t_list *list, char **av)

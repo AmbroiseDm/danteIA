@@ -1,13 +1,3 @@
-/*
-** aff_maze.c for  in /home/legent_c/rendu/dante/lab1/dante/labyrinthe_imparfait
-** 
-** Made by Clementine Legenty
-** Login   <legent_c@epitech.net>
-** 
-** Started on  Sun May 17 16:20:30 2015 Clementine Legenty
-** Last update Sun May 17 17:21:33 2015 Clementine Legenty
-*/
-
 #include "include/imperfect_maze.h"
 
 void		aff_maze(t_list *list)
@@ -19,10 +9,13 @@ void		aff_maze(t_list *list)
 	S_IRWXU | S_IRWXG | S_IRWXO);
   while ((list->y + 1) != list->y_max)
     {
+      my_putstr(list->laby[list->y]);
+      my_putchar('\n');
       write(fd, list->laby[list->y], (list->x_max + 1));
       list->y++;
     }
   write(fd, list->laby[list->y], (list->x_max));
+  my_putchar('\n');
 }
 
 void		my_free(char **lab, int y_max)

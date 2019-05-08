@@ -1,13 +1,3 @@
-/*
-** basic_fct.c for  in /home/legent_c/rendu/dante/lab1/dante/mazes/labyrinthe_imparfait
-** 
-** Made by Clementine Legenty
-** Login   <legent_c@epitech.net>
-** 
-** Started on  Sun May 17 16:45:19 2015 Clementine Legenty
-** Last update Sun May 17 18:08:08 2015 Clementine Legenty
-*/
-
 #include "include/solver.h"
 
 void	my_putchar(char c)

@@ -1,13 +1,3 @@
-/*
-** four_cardinal.c for cardinal in /home/damier_a/IA/laby_2
-** 
-** Made by ambroise damier
-** Login   <damier_a@epitech.net>
-** 
-** Started on  Thu May  7 05:36:03 2015 ambroise damier
-** Last update Sun May 17 16:11:59 2015 Clementine Legenty
-*/
-
 #include "include/imperfect_maze.h"
 
 void		north(t_list *list)

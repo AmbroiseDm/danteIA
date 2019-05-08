@@ -1,13 +1,3 @@
-/*
-** peer_y.c for fpy in /home/damier_a/IA/labyrinthe_parfait
-** 
-** Made by ambroise damier
-** Login   <damier_a@epitech.net>
-** 
-** Started on  Fri May 15 20:13:59 2015 ambroise damier
-** Last update Sun May 17 16:44:48 2015 Clementine Legenty
-*/
-
 #include "include/imperfect_maze.h"
 
 void		fply_next(t_list *list)

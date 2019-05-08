@@ -1,13 +1,3 @@
-/*
-** profondeur.c for prof in /home/damier_a/IA/profondeur
-** 
-** Made by ambroise damier
-** Login   <damier_a@epitech.net>
-** 
-** Started on  Sun May 17 12:55:15 2015 ambroise damier
-** Last update Sun May 17 23:14:39 2015 ambroise damier
-*/
-
 #include "include/solver.h"
 #include "include/get_next_line.h"
 
@@ -34,6 +24,7 @@ void		new_affichage(t_data *data)
       my_putstr("\n");
       y++;
     }
+  my_putstr("\n");
 }
 
 int		search_path(t_data *data)
@@ -61,6 +52,7 @@ int		search_path(t_data *data)
 	return (1);
       if (data->x == 0 && data->y == 0)
 	return (1);
+      new_affichage(data);
       n++;
     }
   return (0);

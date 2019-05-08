@@ -3,8 +3,10 @@
 
 int		check_room(t_data *data)
 {
+  // go to a star cell if result is 0
   if (search_stars(data) == 0)
     return (0);
+  // go to the previous cell if result is 0
   if (go_prev(data) == 0)
     return (0);
   return (1);

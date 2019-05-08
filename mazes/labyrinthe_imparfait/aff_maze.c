@@ -10,7 +10,6 @@ void		aff_maze(t_list *list)
   while ((list->y + 1) != list->y_max)
     {
       my_putstr(list->laby[list->y]);
-      my_putchar('\n');
       write(fd, list->laby[list->y], (list->x_max + 1));
       list->y++;
     }

@@ -44,10 +44,12 @@ int		search_path(t_data *data)
     return (1);
   if (check_room(data) == 1)
     return (1);
+  // this loop defines each iteration of the path search 
   while ((data->x != data->x_max - 1) || (data->y != data->y_max - 1))
     {
       if (n >= n_max)
 	return (1);
+      // check room will find what will be the next cell
       if (check_room(data) == 1)
 	return (1);
       if (data->x == 0 && data->y == 0)
@@ -98,10 +100,12 @@ int		init(t_data *data, char **av)
     }
   if (close(data->fd) == -1)
     return (1);
+  // open the file in parameter
   if ((data->fd = open(av[1], O_RDONLY)) == -1)
     return (1);
   if ((data->maze = malloc(sizeof(char *) * data->y_max)) == NULL)
     return (1);
+  // get_next_line fonction allow to read a line in a file
   while ((str = get_next_line(data->fd)) != NULL)
     {
       data->maze[data->y] = str;

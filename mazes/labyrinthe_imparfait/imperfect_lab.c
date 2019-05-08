@@ -92,13 +92,9 @@ int		main(int ac, char **av)
     }
   if ((create_the_maze(list)) == 1)
     return (1);
-  aff_maze(list);
   fill_the_maze(list);
-  aff_maze(list);
   final_maze(list);
-  aff_maze(list);
   list->y_max = my_getnbr(av[2]);
   first(list, av);
-  aff_maze(list);
-  return (0);
+   return (0);
 }
